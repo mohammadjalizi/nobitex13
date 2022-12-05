@@ -35,11 +35,11 @@ font-size: initial;
 
 }
 .active{
-
-background-color: #ffffff;
+backdrop-filter: 1;
+background-color: black;
 transition: all 0.8s;
 opacity: 0.8;
-
+z-index: 1;
 }
   
 }
