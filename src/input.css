@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+body{
+
+  line-height: 1.7;
+  font-size: 1.4rem;
+  background: #13121c;
+  color: #ffffff;
+  font-family: "Yekan";
+}
+.header{
+
+
+}
+.btn{
+
+  border-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: initial;
+    padding: 5px;
+}
+.btn:hover{
+
+  transition: all .5s;
+}
+.list{
+font-size: initial;
+
+}
+.active{
+
+background-color: #ffffff;
+transition: all 0.8s;
+opacity: 0.8;
+
+}
+  
+}
