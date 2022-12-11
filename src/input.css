@@ -14,6 +14,13 @@
 height:98vh;
 
 }
+#card2{
+
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #titlecard{
 
   max-width: 16.875rem;
