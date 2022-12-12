@@ -609,10 +609,6 @@ tr{
   top: 4rem;
 }
 
-.right-0 {
-  right: 0px;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -945,6 +941,10 @@ tr{
   text-align: center;
 }
 
+.text-end {
+  text-align: end;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -979,9 +979,9 @@ tr{
   color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 
-.text-green-400 {
+.text-\[\#15d1c6\] {
   --tw-text-opacity: 1;
-  color: rgb(74 222 128 / var(--tw-text-opacity));
+  color: rgb(21 209 198 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
