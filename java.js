@@ -2,21 +2,21 @@
 const footerul=document.querySelectorAll('.footerul')
 const hediing=document.querySelectorAll(" h3  ")
 const number=document.querySelectorAll("  .number ")
-
+const navbar=document.getElementById("navbar")
 const main2=document.querySelectorAll("main")
-  
-number.forEach(item=>{
-
-
-
-})
-
+  const respansive=document.querySelectorAll(".respansive")
+console.log(respansive)
 
 
 console.log( number[0].innerHTML )
 
 
+navbar.addEventListener('click',()=>{
 
+
+respansive.style.dispaly="block"
+
+})
 
 var i=0
 window.addEventListener('load',()=>{
@@ -31,7 +31,7 @@ window.addEventListener('load',()=>{
   i++
   number[1].innerHTML=i
   number[2].innerHTML=i
-  number[0].innerHTML=i
+  number[0].innerHTML=4
   if(i===200){
 
   clearInterval(timer)
