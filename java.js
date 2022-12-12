@@ -1,19 +1,58 @@
-const navbar=document.getElementById("navbar")
 
-document.addEventListener('scroll',()=>{
+const footerul=document.querySelectorAll('.footerul')
+const hediing=document.querySelectorAll(" h3  ")
+const number=document.querySelectorAll("  .number ")
 
-if(document.documentElement.scrollTop >0){
+const main2=document.querySelectorAll("main")
+  
+number.forEach(item=>{
 
-navbar.classList.add("active")
-console.log(document.documentElement.scrollTop)
-
-}else{
-
-    navbar.classList.remove("active")
-}
 
 
 })
+
+
+
+console.log( number[0].innerHTML )
+
+
+
+
+var i=0
+window.addEventListener('load',()=>{
+
+
+})
+
+    var timer=   setInterval(()=>{
+
+
+    
+  i++
+  number[1].innerHTML=i
+  number[2].innerHTML=i
+  number[0].innerHTML=i
+  if(i===200){
+
+  clearInterval(timer)
+
+  }
+
+  
+
+  },10)
+
+hediing.forEach(item=>{
+
+item.addEventListener("click",()=>{
+console.log("ok") 
+
+footerul.classList.add("active")
+
+})
+
+})
+
 
 AOS.init();
 

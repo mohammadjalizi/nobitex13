@@ -27,6 +27,10 @@ height:98vh;
   color: #4c505b;
 
 }
+.active{
+display: none;
+
+}
 #buttun{
 
   outline: 0;
