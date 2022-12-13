@@ -5,7 +5,7 @@ const number=document.querySelectorAll("  .number ")
 const navbar=document.getElementById("navbar")
 const main2=document.querySelectorAll("main")
   const respansive=document.querySelectorAll(".respansive")
-console.log(respansive)
+console.log(footerul)
 
 
 console.log( number[0].innerHTML )
@@ -45,9 +45,8 @@ window.addEventListener('load',()=>{
 hediing.forEach(item=>{
 
 item.addEventListener("click",()=>{
-console.log("ok") 
+console.log(item) 
 
-footerul.classList.add("active")
 
 })
 
