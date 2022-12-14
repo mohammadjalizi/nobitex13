@@ -79,6 +79,22 @@ tr{
 
   border-bottom: 1px solid grey;
 }
+#respansive{
+
+  position: relative;
+  left: 269px;
+  transition: 0.5s;
+  width: 50%;
+  background: black;
+  color: #fff;
+  height: 40vh;
+
+
+}
+.toggle{
+right: 0;
+
+}
 .btn{
 
   border-color: red;

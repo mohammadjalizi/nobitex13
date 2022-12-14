@@ -4,8 +4,8 @@ const hediing=document.querySelectorAll(" h3  ")
 const number=document.querySelectorAll("  .number ")
 const navbar=document.getElementById("navbar")
 const main2=document.querySelectorAll("main")
-  const respansive=document.querySelectorAll(".respansive")
-console.log(footerul)
+  const respansive=document.getElementById("respansive")
+const body=document.querySelectorAll('body')
 
 
 console.log( number[0].innerHTML )
@@ -14,15 +14,13 @@ console.log( number[0].innerHTML )
 navbar.addEventListener('click',()=>{
 
 
-respansive.style.dispaly="block"
+respansive.classList.toggle("toggle")
+
+
 
 })
 
 var i=0
-window.addEventListener('load',()=>{
-
-
-})
 
     var timer=   setInterval(()=>{
 
